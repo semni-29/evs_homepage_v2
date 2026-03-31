@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국 EVS - 서비스 안내</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body id="top">
+    <header style="background-color: rgba(255,255,255,0.95); border-bottom: 1px solid #e5e7eb;">
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="index.html" style="display: flex; align-items: center">
+                    <img src="img/logo.png" alt="한국 EVS 로고" onerror="this.src='https://via.placeholder.com/150x60?text=KOREA+EVS'" />
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">회사소개</a>
+                <a href="service.html" style="color: var(--accent-color);">사업영역</a>
+                <a href="contact.html">문의하기</a>
+            </nav>
+            <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+            
+            <div id="mobile-overlay" class="mobile-overlay">
+                <div class="mobile-menu-content">
+                    <button id="mobile-close-btn" class="mobile-close-btn">&times;</button>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">회사소개</a>
+                    <a href="service.html" style="color: var(--accent-color);">사업영역</a>
+                    <a href="contact.html">문의하기</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="subpage-hero dark-mode" style="background-image: url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+            <div class="container">
+                <span class="section-subtitle">지속 가능한 새로운 에너지의 연결</span>
+                <h1>태양광 솔루션</h1>
+                <p style="margin-bottom: 2.5rem;">지속 가능한 에너지로 기업의 긍정적인 내일을 만듭니다.</p>
+                <a href="contact.html" class="cta-btn">상담 문의하기</a>
+            </div>
+        </section>
+
+        <section class="section-padding bg-gray">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 4rem;">
+                    <span class="section-subtitle">미래를 위한 확실한 투자</span>
+                    <h2 class="section-title">왜 태양광 발전 사업인가요?</h2>
+                    <p class="section-desc">기업의 가치를 높이고 안정적인 비즈니스 포트폴리오를 완성하는 3가지 핵심 장점입니다.</p>
+                </div>
+                
+               <div class="solar-benefits">
+                    <div class="benefit-card">
+                        <i class="fa-solid fa-solar-panel benefit-icon" style="color: #222222;"></i>
+                        <div class="benefit-text">
+                            <h3>유휴 부지 활용 극대화</h3>
+                            <p>비어있는 공장 지붕, 주차장, 토지 등 수익이 나지 않던 유휴 공간을 고수익을 창출하는 핵심 자산으로 완벽하게 전환합니다.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fa-solid fa-money-bill-trend-up benefit-icon"></i>
+                        <div class="benefit-text">
+                            <h3>장기적이고 안정적인 수익</h3>
+                            <p>시장 변동성에 영향을 받지 않고 최장 20년간 고정적인 임대 수익 또는 전력 판매 수익(SMP+REC)을 보장받을 수 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fa-solid fa-leaf benefit-icon" style="color: var(--eco-color);"></i>
+                        <div class="benefit-text">
+                            <h3>ESG 경영 및 RE100 달성</h3>
+                            <p>친환경 재생에너지 사용을 통해 탄소 중립을 실천하고, 글로벌 시장에서 요구하는 기업의 ESG 경쟁력을 선제적으로 확보합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 2rem;">
+                    <h2 class="section-title">태양광 수익 구조 모델</h2>
+                    <p class="section-desc">보유하신 자산과 상황에 맞춰 가장 효율적인 비즈니스 모델을 제안합니다.</p>
+                </div>
+
+                <div class="service-list">
+                    <div class="service-row">
+                        <div class="service-text">
+                            <div class="service-num">01</div>
+                            <span class="caption">지붕 및 부지 임대</span>
+                            <h3>유휴 자산을 활용한<br />안정적인 고정 수익 창출</h3>
+                            <p>공장 지붕, 주차장, 캠핑장 등 활용도가 낮은 유휴 공간을 태양광 발전 부지로 임대하여 초기 투자금 없이 장기간 안정적인 수익을 제공하는 프로그램입니다.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check"></i> 업계 최고 수준의 임대 수익률 보장</li>
+                                <li><i class="fa-solid fa-check"></i> 임대료 선지급 옵션 제공 (최대 5년)</li>
+                                <li><i class="fa-solid fa-check"></i> 건물주 및 토지주 신용등급 무관 심사</li>
+                                <li><i class="fa-solid fa-check"></i> 20년 장기 고정 임대 계약 체결</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="지붕 임대 프로그램">
+                        </div>
+                    </div>
+
+                    <div class="service-row">
+                        <div class="service-text">
+                            <div class="service-num">02</div>
+                            <span class="caption">토지주 맞춤형 솔루션</span>
+                            <h3>토지 가치 극대화를 위한<br />매입 및 임대 솔루션</h3>
+                            <p>입지 조건이 우수한 토지를 대상으로 최적의 조건으로 매입하거나 장기 임대 계약을 체결하여, 토지주에게 최고의 금융적 가치를 안겨드립니다.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check"></i> 전문적인 입지 및 인허가 타당성 분석</li>
+                                <li><i class="fa-solid fa-check"></i> 주변 시세 대비 우수한 매입가 산정</li>
+                                <li><i class="fa-solid fa-check"></i> 임대 전환 시 초기 투자금 전액 면제</li>
+                                <li><i class="fa-solid fa-check"></i> 태양광 부지 개발에 따른 토지 가치 상승</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="토지 매입 및 임대">
+                        </div>
+                    </div>
+
+                    <div class="service-row">
+                        <div class="service-text">
+                            <div class="service-num">03</div>
+                            <span class="caption">투자 부담 최소화</span>
+                            <h3>자본금 부담을 덜어주는<br />전문 금융 파트너십 연계</h3>
+                            <p>제1금융권 대출 및 정부 지원 사업과 연계된 맞춤형 금융 솔루션을 제공하여, 초기 투자금 0원으로 성공적인 태양광 발전 사업을 시작할 수 있습니다.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check"></i> 제1금융권 맞춤형 태양광 대출 알선</li>
+                                <li><i class="fa-solid fa-check"></i> 초기 자본금 0원, 수익금으로 상환하는 구조</li>
+                                <li><i class="fa-solid fa-check"></i> 에너지공단 등 정부 지원 및 보조금 컨설팅</li>
+                                <li><i class="fa-solid fa-check"></i> 수익률 분석을 통한 최적의 금융 모델 제시</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="금융 연계형">
+                        </div>
+                    </div>
+
+                    <div class="service-row">
+                        <div class="service-text">
+                            <div class="service-num">04</div>
+                            <span class="caption">발전소 직접 소유</span>
+                            <h3>에너지 비즈니스를 통한<br />수익 창출 극대화</h3>
+                            <p>에너지 시장의 높은 성장성을 바탕으로 고객님이 직접 발전소를 소유하고 운영하며, 전력 판매(SMP+REC)를 통해 비즈니스 수익을 극대화합니다.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check"></i> 발전소 100% 소유권 이전을 통한 자산화</li>
+                                <li><i class="fa-solid fa-check"></i> SMP 및 REC 판매를 통한 수익 다각화 극대화</li>
+                                <li><i class="fa-solid fa-check"></i> 설계부터 인허가, 시공까지 One-Stop 제공</li>
+                                <li><i class="fa-solid fa-check"></i> 스마트 관제 시스템을 통한 효율적 O&M 관리</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="직접 투자형">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-cta-banner">
+            <div class="container">
+                <h2>제 2의 월급, 지금 시작하세요</h2>
+                <p>문의하기로 정보 입력 후 메일을 남겨주시면,<br/>전문가가 부지 확인 후 최적의 맞춤 솔루션을 회신해 드립니다.</p>
+                <a href="contact.html" class="cta-banner-btn">
+                    문의하기 <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="img/footer_logo2.png" alt="한국 EVS 로고" onerror="this.src='https://via.placeholder.com/200x80?text=KOREA+EVS&bg=374151&textColor=ffffff'"/>
+                    </div>
+                    <div class="footer-company-info">
+                        <p>주식회사 한국이브이에스 | 대표 : 김남수</p>
+                        <p>사업자등록번호 : 6466-87-03842</p>
+                        <p>주소 : 서울특별시 강남구 삼성로 531, 4층</p>
+                        <p>고객센터 : 070-4137-9988</p>
+                        <p>이메일 : koreaevs@koreaevs.co.kr</p>
+                    </div>
+                </div>
+                <div class="footer-contact-info">
+                    <div class="contact-label">설치 문의</div>
+                    <div class="contact-number">070-4137-9988</div>
+                    <div class="contact-url">koreaevs@koreaevs.co.kr</div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Korea EVS @ 2026. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
